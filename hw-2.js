@@ -1,7 +1,7 @@
 // задание 1
 
-let a = 20
-alert(a)
+let number = 20
+alert(number)
 
 // задание 2
 
@@ -12,3 +12,13 @@ alert(date)
 
 let creator = "Бренданом Айком"
 alert(creator)
+
+// задание 4
+
+let a = 10
+let b = 2
+
+alert(a + b)
+alert(a - b)
+alert(a * b)
+alert(a / b)
