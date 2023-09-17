@@ -22,3 +22,11 @@ alert(a + b)
 alert(a - b)
 alert(a * b)
 alert(a / b)
+
+// задание 5
+
+let q = 2
+let w = 5
+
+let result = 2 ** 5
+alert(result)
