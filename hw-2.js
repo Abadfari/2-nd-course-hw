@@ -30,10 +30,21 @@ let w = 5
 
 let result = 2 ** 5
 alert(result)
-*/
+
 // задание 6
 
 let z = 9
 let x = 2
 
 alert(z % x)
+*/
+// задание 7
+
+let num = 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
+alert(num);
