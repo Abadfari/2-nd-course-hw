@@ -68,5 +68,4 @@ const user = {
     name: 'Илья',
     age: 30,
     isAdmin: true,
-    'city of residence': 'Volgograd'
 };
