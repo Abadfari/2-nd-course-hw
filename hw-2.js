@@ -54,9 +54,18 @@ num /= 3;
 num++;
 num--;
 alert(num);
-*/
+
 
 // задание 8
 
 let age = prompt('Сколько Вам лет?')
 alert(age)
+*/
+
+// задание 9
+
+const user = {
+    name: 'Илья',
+    age: 27,
+    isAdmin: true,
+};
