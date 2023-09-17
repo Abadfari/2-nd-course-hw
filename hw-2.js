@@ -69,3 +69,7 @@ const user = {
     age: 30,
     isAdmin: true,
 };
+
+let info = prompt(`Какую информацию хотите узнать о пользователе?`)
+
+alert(info)
