@@ -58,7 +58,7 @@ let age = prompt("Сколько вам лет?"); // Задание 8
 alert("Ваш возраст " + age);
 */
 
-
+/*
 let user = {  // Задине 9.0
     name: "Jack Nicholson",
     age: 30,
@@ -76,3 +76,7 @@ let info = prompt("Какую информацию хотите узнать о 
 if (info in user) {
     alert("Запрошенная информация: " + user[info]);
 };
+*/
+
+let userName = prompt("Введите ваше имя:"); // Задание 10
+alert("Привет, " + userName + "!");
