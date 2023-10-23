@@ -53,5 +53,26 @@ num--;
 alert(num);
 */
 
+/*
 let age = prompt("Сколько вам лет?"); // Задание 8
 alert("Ваш возраст " + age);
+*/
+
+
+let user = {  // Задине 9.0
+    name: "Jack Nicholson",
+    age: 30,
+    isAdmin: true
+};
+
+user["city of residence"] = "Volgograd";  // Задине 9.1
+
+user.age = 57;  // Задине 9.2
+
+delete user["city of residence"];  // Задине 9.3
+
+let info = prompt("Какую информацию хотите узнать о пользователе?"); // Задание 9.4
+
+if (info in user) {
+    alert("Запрошенная информация: " + user[info]);
+};
