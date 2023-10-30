@@ -6,12 +6,12 @@ alert(a);
 */
 
 /*
-let firstIPhoneYear = 2007; // Задание 2
+const firstIPhoneYear = 2007; // Задание 2
 alert(firstIPhoneYear);
 */
 
 /*
-let creatorofJavaScript = "Brendan Eich"; // Задание 3
+const creatorofJavaScript = "Brendan Eich"; // Задание 3
 alert(creatorofJavaScript)
 */
 
