@@ -64,6 +64,14 @@ body {
     font-family: inherit;
 }
 
+.top__button:hover {
+    background: #EB443F;
+}
+
+#mycursor {
+    cursor: url("./img/clarity_cursor-hand-line.png"), auto;
+}
+
 .product__box {
     background-image: url(img/Rectangle\ 5.png)
 }
@@ -88,6 +96,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+}
+
+.for__item:hover {
+    border: 3px solid #44D2FF;
+    border-radius: 16px;
 }
 
 .for__item_1 {
