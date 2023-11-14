@@ -124,6 +124,43 @@ body {
 
 /* Первая игра */
 
+.first__game {
+    height: 800px;
+    background-image: url(img/backFirstGame.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.first__game_content {
+    padding-top: 282px;
+    padding-bottom: 282px;
+}
+
+.first__game_for {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__game_title {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.first__game_text {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    max-width: 584px;
+}
+
 /* Адаптивная версия */
 
 @media (max-width: 767px) {
