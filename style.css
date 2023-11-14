@@ -106,14 +106,17 @@ body {
 }
 
 .for__item_1 {
+    text-decoration: none;
     background-image: url(img/Rectangle\ 6.png);
 }
 
 .for__item_2 {
+    text-decoration: none;
     background-image: url(img/Rectangle\ 7.png);
 }
 
 .for__item_3 {
+    text-decoration: none;
     background-image: url(img/Rectangle\ 8.png);
 }
 
