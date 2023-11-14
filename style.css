@@ -133,13 +133,11 @@ body {
 }
 
 .first__game_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 282px;
     padding-bottom: 282px;
-}
-
-.first__game_for {
-    display: flex;
-    justify-content: space-between;
 }
 
 .first__game_title {
@@ -148,6 +146,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    max-width: 584px;
 }
 
 .first__game_text {
@@ -160,6 +159,16 @@ body {
     margin-bottom: 32px;
     max-width: 584px;
 }
+
+.first__game_for {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 /* Адаптивная версия */
 
@@ -224,4 +233,31 @@ body {
     .for__item_3 {
         background-image: url(./img/_mobile/Rectangle\ 8.png);
     }
+
+    .first__game {
+        height: 653px;
+    }
+
+    .first__game_content {
+        display: flex;
+        align-items: center;
+        padding-top: 51px;
+        padding-bottom: 64px;
+    }
+
+    .first__game_title {
+        font-size: 32px;
+    }
+
+    .first__game_text {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .first__game_for img {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
