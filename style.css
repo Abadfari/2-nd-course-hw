@@ -72,6 +72,8 @@ body {
     cursor: url("./img/clarity_cursor-hand-line.png"), auto;
 }
 
+/*  второй блок */
+
 .product__box {
     background-image: url(img/Rectangle\ 5.png)
 }
@@ -119,6 +121,10 @@ body {
     margin-bottom: 32px;
     margin-left: 32px;
 }
+
+/* Первая игра */
+
+/* Адаптивная версия */
 
 @media (max-width: 767px) {
     
