@@ -98,10 +98,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    box-sizing: border-box;
 }
 
 .for__item:hover {
-    border: 3px solid #44D2FF;
+    outline: 3px solid #44D2FF;
     border-radius: 16px;
 }
 
@@ -123,6 +124,10 @@ body {
 .item {
     margin-bottom: 32px;
     margin-left: 32px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Первая игра */
