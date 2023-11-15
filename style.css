@@ -78,6 +78,8 @@ body {
     cursor: url("./img/clarity_cursor-hand-line.png"), auto;
 }
 
+/*  второй блок */
+
 .product__box {
     background-image: url(img/Rectangle\ 5.png)
 }
@@ -110,14 +112,17 @@ body {
 }
 
 .for__item_1 {
+    text-decoration: none;
     background-image: url(img/Rectangle\ 6.png);
 }
 
 .for__item_2 {
+    text-decoration: none;
     background-image: url(img/Rectangle\ 7.png);
 }
 
 .for__item_3 {
+    text-decoration: none;
     background-image: url(img/Rectangle\ 8.png);
 }
 
@@ -125,6 +130,56 @@ body {
     margin-bottom: 32px;
     margin-left: 32px;
 }
+
+/* Первая игра */
+
+.first__game {
+    height: 800px;
+    background-image: url(img/backFirstGame.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.first__game_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 282px;
+    padding-bottom: 282px;
+}
+
+.first__game_title {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 584px;
+}
+
+.first__game_text {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    max-width: 584px;
+}
+
+.first__game_for {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Адаптивная версия */
 
 @media (max-width: 767px) {
     
@@ -187,4 +242,31 @@ body {
     .for__item_3 {
         background-image: url(./img/_mobile/Rectangle\ 8.png);
     }
+
+    .first__game {
+        height: 653px;
+    }
+
+    .first__game_content {
+        display: flex;
+        align-items: center;
+        padding-top: 51px;
+        padding-bottom: 64px;
+    }
+
+    .first__game_title {
+        font-size: 32px;
+    }
+
+    .first__game_text {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .first__game_for img {
+        max-width: 100%;
+        height: auto;
+    }
+
 }

@@ -24,18 +24,33 @@
     </div>
     <div class="product__box center">
         <div class="product__content">
-            <section class="for__item for__item_1" id="mycursor">
+            <a href="#game1" class="for__item for__item_1" id="mycursor">
                 <span class="item">Игра 1</span>
-            </section>
-            <section class="for__item for__item_2" id="mycursor">
+            </a>
+            <a href="#game2" class="for__item for__item_2" id="mycursor">
                 <span class="item">Игра 2</span>
-            </section>
-            <section class="for__item for__item_3" id="mycursor">
+            </a>
+            <a href="#game3" class="for__item for__item_3" id="mycursor">
                 <span class="item">Игра 3</span>
+            </a>
+        </div>
+    </div>
+    <div class="first__game center">
+        <div class="first__game_for">
+            <section class="first__game_content" id="game1">
+                <h1 class="first__game_title">Времена года!</h1>
+                <p class="first__game_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12)
+                    и вы узнаете к какому времени года он относится
+                </p>
+                <button onclick="alert(gameSeason(prompt('Введите число:')));" class="button top__button"
+                    id="mycursor">Играть!</button>
+            </section>
+            <section class="first__game_pic">
+                <img src="./img/firstGame.svg" alt="#">
             </section>
         </div>
-
     </div>
+    <script src="./site.js"></script>
 </body>
 
 </html>
