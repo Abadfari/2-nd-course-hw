@@ -182,6 +182,52 @@ html {
     align-items: center;
 }
 
+/* Вторая игра */
+
+.second__game {
+    height: 800px;
+    background-image: url(img/backFirstGame.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.second__game_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 282px;
+    padding-bottom: 282px;
+}
+
+.second__game_title {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 584px;
+}
+
+.second__game_text {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    max-width: 584px;
+}
+
+.second__game_for {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 /* Адаптивная версия */
