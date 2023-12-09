@@ -294,6 +294,7 @@ html {
         background-image: url(./img/_mobile/Rectangle\ 8.png);
     }
 
+    /* Первая игра */
     .first__game {
         height: 653px;
     }
@@ -318,6 +319,37 @@ html {
     .first__game_for img {
         max-width: 100%;
         height: auto;
+    }
+
+    /* Вторая игра */
+    .second__game {
+        height: 653px;
+    }
+
+    .second__game_content {
+        display: flex;
+        align-items: center;
+        padding-top: 51px;
+        padding-bottom: 64px;
+    }
+
+    .second__game_title {
+        font-size: 32px;
+    }
+
+    .second__game_text {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .second__game_for img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .second__game_for {
+        flex-direction: column-reverse;
     }
 
 }
